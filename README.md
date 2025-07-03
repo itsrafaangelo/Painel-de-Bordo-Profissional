@@ -59,7 +59,7 @@ Um hub central para sua produtividade que combina gestão de tarefas, repositór
 
     ```bash
     git clone https://github.com/itsrafaangelo/Painel-de-Bordo-Profissional.git
-    cd painel-produtividade
+    cd Painel-de-Bordo-Profissional
     ```
 
 2. **Instale as dependências**
