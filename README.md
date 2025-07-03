@@ -10,12 +10,9 @@ Um hub central para sua produtividade que combina gestão de tarefas, repositór
 -   Status: Ativo, Arquivado, Concluído
 -   Descrições detalhadas para cada projeto
 
-### 📝 Kanban (Tarefas)
+### 📝 Tarefas
 
--   Painel visual com drag & drop
--   Três colunas: A Fazer, Em Andamento, Concluído
--   Associação opcional com projetos
--   Prazos e descrições detalhadas
+-   Painel visual com tarefas feitas e em aberto
 -   Atualização de status via AJAX
 
 ### 📖 Anotações
@@ -61,7 +58,7 @@ Um hub central para sua produtividade que combina gestão de tarefas, repositór
 1. **Clone o repositório**
 
     ```bash
-    git clone <url-do-repositorio>
+    git clone https://github.com/itsrafaangelo/Painel-de-Bordo-Profissional.git
     cd painel-produtividade
     ```
 
@@ -83,6 +80,7 @@ Um hub central para sua produtividade que combina gestão de tarefas, repositór
 
     - Crie um banco MySQL
     - Atualize as credenciais no arquivo `.env`:
+
         ```env
         DB_DATABASE=seu_banco
         DB_USERNAME=seu_usuario
@@ -108,7 +106,7 @@ Um hub central para sua produtividade que combina gestão de tarefas, repositór
     ```
 
 8. **Acesse a aplicação**
-    - Abra http://localhost:8000
+    - Abra <http://localhost:8000>
     - Registre-se e comece a usar!
 
 ## 🎯 Como Usar
@@ -210,5 +208,5 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 Acesse o sistema com as credenciais abaixo para testar todas as funcionalidades:
 
--   **E-mail:** demo@demo.com
+-   **E-mail:** <demo@demo.com>
 -   **Senha:** 123456
